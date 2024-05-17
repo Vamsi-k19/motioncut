@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="pri.css">
+    <script src="pric.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Our Pricing Plans</h1>
+        <div id="currency-toggle">
+            <label for="currency-select">Currency: </label>
+            <select id="currency-select">
+                <option value="USD">$ USD</option>
+                <option value="EUR">€ EUR</option>
+                <option value="GBP">£ GBP</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section class="pricing-table">
+            <div class="pricing-card">
+                <h2>Basic</h2>
+                <p class="price" data-price-usd="10" data-price-eur="8.5" data-price-gbp="7.5">$10</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Standard</h2>
+                <p class="price" data-price-usd="20" data-price-eur="17" data-price-gbp="15">$20</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Premium</h2>
+                <p class="price" data-price-usd="30" data-price-eur="25.5" data-price-gbp="22.5">$30</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
