@@ -34,6 +34,6 @@ This project is a simple yet effective E-commerce Product Page built with HTML a
 
 1. Clone the repository:
    ```bash
-   https://github.com/Vamsi-k19/e-commerce-product-page.git
+   https://github.com/Vamsi-k19/motioncut
 cd e-commerce-product-page
 
